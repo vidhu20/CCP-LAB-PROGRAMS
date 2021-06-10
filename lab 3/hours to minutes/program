@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+float Min(float hours);
+int main ()
+{
+   float hours, minutes;
+   printf ("Enter number of hours : \n");
+   scanf ("%f", &hours);
+   minutes = (hours*60);
+   printf ("Number of minutes %f \n", minutes);
+   return 0;
+}
+float Min(float hours)
+{
+	return (hours*60);
+}
