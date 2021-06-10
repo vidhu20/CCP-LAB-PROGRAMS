@@ -1,0 +1,13 @@
+# include <stdio.h> 
+# include <conio.h>
+void main() 
+{ 
+ int i, n;
+ printf("Enter the number : \n") ; 
+ scanf("%d", &n) ; 
+ printf("The multiples of %d are: \n", n) ; 
+ for(i = 1 ; i <= 100 ; i++) 
+  if(i % n == 0) 
+   printf("%d\n", i) ; 
+ getch() ; 
+}
