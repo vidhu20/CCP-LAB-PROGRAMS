@@ -1,0 +1,17 @@
+#include<stdio.h> 
+int main()
+{
+  int m, n, r, i;
+  printf("Enter m: \n");
+  scanf("%d", &m);
+  printf("Enter n: \n");
+  scanf("%d",&n);
+  printf("The even numbers between %d and %d are: ", m, n); 
+  for(i=m; i<=n; ++i)
+  {
+    r = i % 2;
+    if(r == 0)
+    printf("\t %d",i);
+  }
+ return 0; 
+} 
